@@ -1,16 +1,16 @@
-# Maintainer: Aditya Shakya <adi1090x@gmail.com>
+# Maintainer: Fabrice Corraire <antidote1911@gmail.com>
 
-pkgname=archcraft-cursor-layan
+pkgname=packarch-cursor-lyra
 pkgver=1.0
 pkgrel=1
-pkgdesc="Layan Cursor theme for Archcraft"
-url="https://github.com/archcraft-os/archcraft-cursors"
+pkgdesc="Lyra Cursor theme for Packarch"
+url="https://github.com/packarch/packarch-cursors"
 arch=('any')
 license=('GPL3')
 makedepends=()
 depends=()
 conflicts=()
-groups=(archcraft-cursors)
+groups=(packarch-cursors)
 provides=("${pkgname}")
 options=(!strip !emptydirs)
 
