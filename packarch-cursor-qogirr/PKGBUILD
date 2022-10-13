@@ -1,0 +1,25 @@
+# Maintainer: Fabrice Corraire <antidote1911@gmail.com>
+
+pkgname=packarch-cursor-qogirr
+pkgver=1.0
+pkgrel=1
+pkgdesc="Qogirr Cursor theme for Packarch"
+url="https://github.com/packarch/packarch-cursors"
+arch=('any')
+license=('GPL3')
+makedepends=()
+depends=()
+conflicts=()
+groups=(packarch-cursors)
+provides=("${pkgname}")
+options=(!strip !emptydirs)
+
+prepare() {
+	cp -af ../files/. ${srcdir}
+}
+
+package() {
+	local _cursorsdir=${pkgdir}/usr/share/icons
+	mkdir -p "$_cursorsdir"
+	cp -r ${srcdir}/* "$_cursorsdir"
+}

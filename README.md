@@ -1,1 +1,2 @@
-# cursors-pkgbuilds
+# packarch-cursors
+ // Packages : Cursors
