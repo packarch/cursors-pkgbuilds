@@ -1,10 +1,10 @@
-# Maintainer: Fabrice Corraire <antidote1911@gmail.com>
+# Maintainer: Aditya Shakya <adi1090x@gmail.com>
 
 pkgname=packarch-cursor-future
 pkgver=1.0
-pkgrel=1
+pkgrel=3
 pkgdesc="Future Cursor theme for Packarch"
-url="https://github.com/packarch/packarch-cursors"
+url="https://github.com/packarch-os/packarch-cursors"
 arch=('any')
 license=('GPL3')
 makedepends=()
